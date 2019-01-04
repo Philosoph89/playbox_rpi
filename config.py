@@ -7,12 +7,12 @@ def getVideoPath(rfidInput):
         "2519844985": "/home/pi/Videos/FWM_Sam.mp4",
         "2521528537": "/home/pi/Videos/Bobo.mp4"
     }
-	# Return the videopath for the RFID card ID 
-	return switcher.get(rfidInput, "Kein passendes Video gefunden.")
-	
+    # Return the videopath for the RFID card ID 
+    return switcher.get(rfidInput, "Kein passendes Video gefunden.")
+
 # Set the rfid reader device; is this doesn't work --> check if there is another HID in /dev/ 	
 def getHID():
     return '/dev/hidraw0'
-	
+
 def getBackgroundPath():
-	return "/home/pi/Pictures/Main.jpg"
+    return "/home/pi/Pictures/Main.jpg"

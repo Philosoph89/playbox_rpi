@@ -21,7 +21,7 @@ def showVideo(rfidInput):
 			print "Video wird bereits gezeigt..."
 			return
 		
-	if(config.getVideoPath(rfidInput) != "Kein passendes Video gefunden."):
+	if(config.getVideoPath(rfidInput) == "Kein passendes Video gefunden."):
 		print "Kein passendes Video zur Karte gefunden."
 		return
 				
