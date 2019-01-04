@@ -2,6 +2,8 @@
 Code for the playbox-rpi project. Project is at early stage so the repository is updated frequently.
 
 This project aims to give kids a simple, self-determined but controllable access to their favorite videos.
+# Demonstration
+https://youtu.be/GpjgSvKmZzE
 
 # Hardware
 - Raspberry Pi 3 B+
@@ -28,3 +30,5 @@ This project aims to give kids a simple, self-determined but controllable access
   - "cd /home/pi/Playbox"
 - Run the playbox.py script to start the application
   - "sudo python playbox.py"
+- Feel free to put it to your autostart
+
