@@ -22,7 +22,9 @@ This project aims to give kids a simple, self-determined but controllable access
   - "sudo apt-get install python"
 - Copy this repository to your RPi (e.g. /home/pi/Playbox)
 - Copy the videos you want to show at the playbox to your RPi
-- Configure the map.py to your needs (RFID card IDs, video mapping, input device, ...) and save
-  - "sudo nano /home/pi/Playbox/map.py"
+- Configure the config.py to your needs (RFID card IDs, video mapping, input device, ...) and save
+  - "sudo nano /home/pi/Playbox/config.py"
 - Change location to the Playbox path
+  - "cd /home/pi/Playbox"
 - Run the playbox.py script to start the application
+  - "sudo python playbox.py"
