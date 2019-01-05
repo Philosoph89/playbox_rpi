@@ -22,9 +22,11 @@ https://youtu.be/GpjgSvKmZzE
   - "sudo apt-get install feh"
   - "sudo apt-get install vlc"
   - "sudo apt-get install python"
+- Force VLC to run with root privileges
+  - "sed -i 's/geteuid/getppid/' /usr/bin/vlc"
 - Copy this repository to your RPi (e.g. /home/pi/Playbox)
-- Copy the videos you want to show at the playbox to your RPi
-- Configure the config.py to your needs (RFID card IDs, video mapping, input device, ...) and save
+- Copy the videos you want to show at the playbox to your RPi (e.g. /home/pi/Videos)
+- Configure the config.py to your needs (RFID card IDs, video mapping/path, input device, ...) and save
   - "sudo nano /home/pi/Playbox/config.py"
 - Change location to the Playbox path
   - "cd /home/pi/Playbox"
